@@ -306,9 +306,9 @@ Both implementations (cublasSgemm and cublasGemmEx) showed similar performance t
 .
 ├── README.md                          # This file
 ├── main_benchmark.ipynb               # Complete Jupyter notebook with all benchmarks
+├── main_benchmark.pdf                 # PDF version of notebook with complete outputs
 ├── gemm_benchmark.cu                  # CUDA C++ implementation
 ├── requirements.txt                   # Python dependencies
-├── QUICK_START.md                     # Quick start guide for running benchmarks
 └── results/                           # Benchmark outputs
     ├── latency_comparison.png         # Latency plot
     ├── throughput_comparison.png      # Throughput bar chart
